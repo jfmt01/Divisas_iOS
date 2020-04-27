@@ -10,6 +10,16 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *dolar;
+
+- (IBAction)euro:(UIButton *)sender;
+
+- (IBAction)libre:(UIButton *)sender;
+
+- (IBAction)yen:(UIButton *)sender;
+
+@property (strong, nonatomic) IBOutlet UILabel *conversion;
+
 
 @end
 
